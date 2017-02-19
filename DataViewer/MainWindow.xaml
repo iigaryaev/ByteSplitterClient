@@ -1,0 +1,45 @@
+﻿<Window x:Class="DataViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataViewer"
+        mc:Ignorable="d"
+        Title="Data viewer" Height="600" Width="525" Loaded="Window_Loaded">
+
+    <Grid x:Name="RootLayout" >
+        <Grid x:Name="RootLayout2" VerticalAlignment="Top" Background="Black" MouseLeave="BackPlane_MouseLeave" MouseLeftButtonDown="BackPlane_MouseLeftButtonDown" MouseLeftButtonUp="BackPlane_MouseLeftButtonUp" MouseMove="BackPlane_MouseMove">
+            <Image Grid.Column="0" x:Name="image" Width="192" Height="500" Source="C:\\Users\\Ilya\\Pictures\\nidali\\Фото\\5oN7gum9oTs (1).jpg" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Canvas Grid.Column="0" Width="192" Height="500" Name="BackPlane" MouseMove="BackPlane_MouseMove">
+            </Canvas>
+        </Grid>
+
+        <StackPanel Grid.Column="1">
+            <Button Width="100" HorizontalAlignment="Left" Name="OpenFile" Click="OpenFile_Click">Open file</Button>
+            <Label Name="label_fileName">open file to start</Label>
+            <Button Width="100" HorizontalAlignment="Left" IsEnabled="False" Name="Prev" Click="Prev_Click">Prev. page</Button>
+            <Button Width="100" HorizontalAlignment="Left" IsEnabled="False" Name="Next" Click="Next_Click">Next page</Button>
+            <Label Name="label_pageStart">Page begins at ...</Label>
+            <Label Name="label_x">X:</Label>
+            <Label Name="label_y">Y:</Label>
+            <Label Name="label_height">Length:</Label>
+            <Label Name="label_width">Width:</Label>
+            <DataGrid x:Name="FramesGrid" AutoGenerateColumns="False" ColumnWidth="*">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding X}" ClipboardContentBinding="{x:Null}" Header="X"/>
+                    <DataGridTextColumn Binding="{Binding Y}" ClipboardContentBinding="{x:Null}" Header="Y"/>
+                    <DataGridTextColumn Binding="{Binding Length}" ClipboardContentBinding="{x:Null}" Header="Length"/>
+                    <DataGridTextColumn Binding="{Binding Width}" ClipboardContentBinding="{x:Null}" Header="Width"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+        </StackPanel>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="192"></ColumnDefinition>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+    </Grid>
+
+
+</Window>
