@@ -79,7 +79,7 @@ namespace Model
         {
             if(data.Length * 8 % chunkSize != 0)
             {
-                throw new Exception("data can not be splitted");
+                throw new WrongLineException("data can not be splitted");
             }
 
             this.Init();
@@ -123,7 +123,7 @@ namespace Model
                 {
                     var bitsToTake = chunkSize - fullness;
                     leftover = 8 - bitsToTake;
-                    subvalue2 = readingValue & (0xFF << leftover);
+                    subvalue2 = readingValue & (0xFF >> leftover);
 
                     if(!subvalue1.HasValue)
                     {

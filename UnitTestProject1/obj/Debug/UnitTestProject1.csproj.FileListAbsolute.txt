@@ -1,0 +1,9 @@
+C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\bin\Debug\Model.dll
+C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\bin\Debug\Model.pdb
+C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
