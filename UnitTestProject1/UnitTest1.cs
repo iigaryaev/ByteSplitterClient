@@ -58,5 +58,48 @@ namespace UnitTestProject1
 
             throw new Exception("WrongLineException expected");
         }
+
+        [TestMethod]
+        public void ReadFile_1only()
+        {
+
+            var outData = ds.ReadFile("TestFiles\\test1.000");
+            
+            Assert.AreEqual(1, outData.Count, "Output data length is not as expected");
+            var expected = Math.Pow(2, 10) - 1;
+            for (var i = 0; i < outData.Count; i++)
+            {
+                Assert.AreEqual(expected, outData[0][i], string.Format("{0} only expected in output", expected));
+            }
+        }
+
+        [TestMethod]
+        public void WrongFileLength()
+        {
+            try
+            {
+                var outData = ds.ReadFile("TestFiles\\test1-wrongLength.000");
+            }
+            catch(WrongFileLengthException ex)
+            {
+                return;
+            }
+            
+
+            throw new Exception("WrongFileLengthException expected");
+        }
+
+        [TestMethod]
+        public void ReadFile_zeros()
+        {
+            var outData = ds.ReadFile("TestFiles\\test1-zeros.000");
+
+            Assert.AreEqual(1, outData.Count, "Output data length is not as expected");
+
+            for (var i = 0; i < outData.Count; i++)
+            {
+                Assert.AreEqual(0, outData[0][i], "Zeros only expected in output");
+            }
+        }
     }
 }

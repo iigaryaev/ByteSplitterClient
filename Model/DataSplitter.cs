@@ -55,7 +55,7 @@ namespace Model
 
                     if(readed < rowLength)
                     {
-                        throw new Exception("File corrupted. It can not be read as 240 length lines");
+                        throw new WrongFileLengthException("File corrupted. It can not be read as 240 length lines");
                     }
 
                     var result = this.Split(row);

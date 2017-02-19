@@ -7,3 +7,6 @@ C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestP
 C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
 C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\bin\Debug\TestFiles\test1.000
+C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\bin\Debug\TestFiles\test1-wrongLength.000
+C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\UnitTestProject1\bin\Debug\TestFiles\test1-zeros.000
