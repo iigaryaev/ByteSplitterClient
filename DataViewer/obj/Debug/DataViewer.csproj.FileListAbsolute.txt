@@ -1,0 +1,16 @@
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\DataViewer\bin\Debug\DataViewer.exe.config
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\DataViewer\bin\Debug\DataViewer.exe
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\DataViewer\bin\Debug\DataViewer.pdb
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\DataViewer\obj\Debug\DataViewer.csprojResolveAssemblyReference.cache
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\DataViewer\obj\Debug\MainWindow.g.cs
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\DataViewer\obj\Debug\App.g.cs
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\DataViewer\obj\Debug\DataViewer_MarkupCompile.cache
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\DataViewer\obj\Debug\DataViewer_MarkupCompile.lref
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\DataViewer\obj\Debug\MainWindow.baml
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\DataViewer\obj\Debug\DataViewer.g.resources
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\DataViewer\obj\Debug\DataViewer.Properties.Resources.resources
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\DataViewer\obj\Debug\DataViewer.csproj.GenerateResource.Cache
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\DataViewer\obj\Debug\DataViewer.exe
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\DataViewer\obj\Debug\DataViewer.pdb
+C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\DataViewer\bin\Debug\Model.dll
+C:\Users\Ilya\Documents\Visual Studio 2015\Projects\ByteSplitterClient\DataViewer\bin\Debug\Model.pdb

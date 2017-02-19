@@ -1,0 +1,5 @@
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\Model\bin\Debug\Model.dll
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\Model\bin\Debug\Model.pdb
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\Model\obj\Debug\Model.dll
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\Model\obj\Debug\Model.pdb

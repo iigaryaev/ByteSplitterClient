@@ -1,0 +1,8 @@
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\ByteSplitterClient\bin\Debug\ByteSplitterClient.exe.config
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\ByteSplitterClient\bin\Debug\ByteSplitterClient.exe
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\ByteSplitterClient\bin\Debug\ByteSplitterClient.pdb
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\ByteSplitterClient\obj\Debug\ByteSplitterClient.csprojResolveAssemblyReference.cache
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\ByteSplitterClient\obj\Debug\ByteSplitterClient.exe
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\ByteSplitterClient\obj\Debug\ByteSplitterClient.pdb
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\ByteSplitterClient\bin\Debug\Model.dll
+c:\users\ilya\documents\visual studio 2015\Projects\ByteSplitterClient\ByteSplitterClient\bin\Debug\Model.pdb
